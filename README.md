@@ -15,23 +15,22 @@ Este proyecto es una integración básica de PayPal en una aplicación Next.js. 
 
 1. Clona el repositorio:
 
-   ```bash
-   git clone https://github.com/Jonvtvn/paypal-payment-gateway-nextjs.git
-   ```
 ```bash
-   cd paypal-payment-gateway-nextjs
+git clone https://github.com/Jonvtvn/paypal-payment-gateway-nextjs.git
+```
+```bash
+cd paypal-payment-gateway-nextjs
 ```
 
 2. Instala las dependencias:
 ```bash
-   npm install
+npm install
 ```
 3. Crea un archivo .env.local y agrega tu Client ID de PayPal:
-   ```bash
-   CLIENT_ID=TU_CLIENT_ID_DE_PAYPAL
+```bash
+CLIENT_ID=TU_CLIENT_ID_DE_PAYPAL
 ```
    
-
 4. Inicia el servidor de desarrollo:
 ```bash
 npm run dev
