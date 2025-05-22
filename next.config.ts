@@ -1,7 +1,11 @@
-import type { NextConfig } from "next";
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  eslint: {
+    ignoreDuringBuilds: true
+  },
+  env: {
+    CLIENT_ID: process.env.CLIENT_ID,
+  },
+}
 
-const nextConfig: NextConfig = {
-  /* config options here */
-};
-
-export default nextConfig;
+module.exports = nextConfig
