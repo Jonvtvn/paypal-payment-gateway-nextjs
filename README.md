@@ -35,3 +35,7 @@ CLIENT_ID=TU_CLIENT_ID_DE_PAYPAL
 ```bash
 npm run dev
 ```
+
+## 👀 Vista previa
+
+![Vista previa del proyecto](./Untitled.png)
