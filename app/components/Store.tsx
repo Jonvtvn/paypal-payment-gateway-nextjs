@@ -76,13 +76,13 @@ export const Store = () => {
     };
 
     return (
-        <div className="p-4">
+        <div className="max-w-4xl p-4">
             <Toast ref={toast} />
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                 {items.items.map((item) => (
                     <div
                         key={item.id}
-                        className="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 p-4 flex flex-col items-center text-center"
+                        className="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 p-4 flex flex-col items-center text-center"
                     >
                         <img
                             src={item.Item_image}
@@ -93,7 +93,7 @@ export const Store = () => {
                         <p className="text-teal-600 font-bold text-md mt-2 mb-4">${item.original_price.toFixed(2)}</p>
                         <button
                             onClick={() => openModal(item.id)}
-                            className="bg-teal-500 hover:bg-teal-600 text-white px-4 py-2 rounded-full transition-colors"
+                            className="bg-neutral-900 hover:bg-neutral-700 text-white font-bold  px-4 py-2 rounded-full transition-colors cursor-pointer"
                         >
                             Comprar
                         </button>
